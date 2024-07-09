@@ -1,5 +1,3 @@
- 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,11 +5,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="p-4 border-b text-center">
-        20% off for next few days
-
-      </div>
-      <body > {children} </body>
+      <body> {children} </body>
     </html>
   );
 }
